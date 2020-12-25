@@ -83,14 +83,10 @@ switch (marginMin) {
     case marginLeft:
         objPlayer.x = width * room_width
         // objPlayer.y += screens * height * room_height
-        show_message(room_width)
-        show_message(objPlayer.x)
         break
     case marginRight:
         objPlayer.x = 0
         // objPlayer.y += screens * height * room_height
-        show_message(room_width)
-        show_message(objPlayer.x)
         break
     case marginTop:
         objPlayer.y = height * room_height
@@ -101,21 +97,6 @@ switch (marginMin) {
         // objPlayer.x += screens * width * room_width
         break
 }
-/*
-yflag = 1
-// prevent the bug that objPlayer could move into block
-with (objPlayer) {
-    if (onBlock) {
-        y -= yflag
-    }
-}
-
-global.__objPlayer_start_num = _num
-global.__objPlayer_maxJumps = objPlayer.maxJumps
-global.__objPlayer_maxSpeed = objPlayer.maxSpeed
-global.__objPlayer_grav = objPlayer.grav
-global.__objPlayer_shootInterval = objPlayer.shootInterval
-*/
 }
 </string>
           </argument>

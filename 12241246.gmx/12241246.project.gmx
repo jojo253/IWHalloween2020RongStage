@@ -371,6 +371,7 @@
     <scripts name="Rong">
       <script>scripts\set_default.gml</script>
       <script>scripts\outsideRoom.gml</script>
+      <script>scripts\spritable.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -384,6 +385,11 @@
     <font>fonts\font7</font>
   </fonts>
   <objects name="objects">
+    <object>objects\objBlock</object>
+    <object>objects\objSpikeUp</object>
+    <object>objects\objSpikeLeft</object>
+    <object>objects\objSpikeRight</object>
+    <object>objects\objSpikeDown</object>
     <objects name="world">
       <object>objects\objWorld</object>
       <object>objects\objCamera</object>
@@ -405,7 +411,6 @@
       <object>objects\objGameOver</object>
     </objects>
     <objects name="blocks">
-      <object>objects\objBlock</object>
       <object>objects\objMiniBlock</object>
       <object>objects\objSlipBlock</object>
       <object>objects\objBlockInvis</object>
@@ -432,10 +437,6 @@
     </objects>
     <objects name="killers">
       <object>objects\objPlayerKiller</object>
-      <object>objects\objSpikeUp</object>
-      <object>objects\objSpikeRight</object>
-      <object>objects\objSpikeLeft</object>
-      <object>objects\objSpikeDown</object>
       <object>objects\objMiniUp</object>
       <object>objects\objMiniRight</object>
       <object>objects\objMiniLeft</object>
@@ -562,6 +563,12 @@
       <object>objects\borderWarp</object>
       <object>objects\nokey</object>
       <object>objects\begingame</object>
+      <object>objects\nodj</object>
+      <object>objects\trgplantform</object>
+      <object>objects\trgplantform2</object>
+      <object>objects\rocover</object>
+      <object>objects\secretBlock1</object>
+      <object>objects\secretBlock2</object>
     </objects>
   </objects>
   <rooms name="rooms">

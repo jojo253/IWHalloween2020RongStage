@@ -50,7 +50,8 @@ image_xscale=3
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(rRong)
+            <string>with(objPlayer) instance_destroy();
+room_goto(rRong)
 global.frozen=false
 global.frozen2=false
 </string>

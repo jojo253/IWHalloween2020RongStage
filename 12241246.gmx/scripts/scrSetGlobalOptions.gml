@@ -35,7 +35,7 @@ global.delayBow = false;            //sets whether to delay the player bow's mov
 global.directionalTapFix = false;    //sets whether to change the behavior of tapping left/right for less than 1 frame (by default the player does not move when this happens, enabling this always moves the player for 1 frame when left/right is tapped)
 global.playerAnimationFix = false;  //sets whether to fix the weird player animation inconsistencies when moving around
 
-global.secretItemTotal = 8;     //sets how many secret items for the game to save/load
+global.secretItemTotal = 12;     //sets how many secret items for the game to save/load
 global.bossItemTotal = 8;       //sets how many boss items for the game to save/load
 
 //hallo only
