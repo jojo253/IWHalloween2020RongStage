@@ -187,7 +187,7 @@
     <instance objName="objSave" x="384" y="256" name="inst_B16E1189" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="160" y="96" name="inst_A9ABE42D" locked="0" code="&#xA;text = &quot;ZeroyumeStage&quot;&#xA;roomTo = rZeroyumeRoom_1;&#xA;&#xA;//roomTo = rZeroyumeRoom_1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="160" y="256" name="inst_31162450" locked="0" code="roomTo = rJushiBig;&#xA;text = &quot;JushiStage&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="160" y="416" name="inst_FFD6FEED" locked="0" code="text = &quot;RongStage&quot;&#xA;roomTo = rRongHub;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="160" y="416" name="inst_FFD6FEED" locked="0" code="text = &quot;RongStage&quot;&#xA;roomTo = rRongInit;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="608" y="416" name="inst_048B2091" locked="0" code="roomTo = rTaoshuRoom_1;&#xA;text = &quot;TaoshuStage&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="608" y="256" name="inst_517B48CE" locked="0" code="roomTo = rQ3;&#xA;text = &quot;QinchuiStage&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="608" y="96" name="inst_251122FF" locked="0" code="roomTo = rWJRoom_1;&#xA;text = &quot;WujianStage&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

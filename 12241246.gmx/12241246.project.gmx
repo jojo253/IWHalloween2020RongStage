@@ -368,6 +368,10 @@
     </scripts>
     <script>scripts\noout.gml</script>
     <script>scripts\switchColor.gml</script>
+    <scripts name="Rong">
+      <script>scripts\set_default.gml</script>
+      <script>scripts\outsideRoom.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -554,6 +558,11 @@
       <object>objects\objLevelItem</object>
       <object>objects\objLevelWarp</object>
     </objects>
+    <objects name="Rong">
+      <object>objects\borderWarp</object>
+      <object>objects\nokey</object>
+      <object>objects\begingame</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -576,7 +585,6 @@
     <room>rooms\rTemplate</room>
     <room>rooms\rMainHub</room>
     <room>rooms\rHubTemplate</room>
-    <room>rooms\rRongHub</room>
     <room>rooms\rEnd</room>
     <rooms name="WJ">
       <room>rooms\rWJRoom_1</room>
@@ -633,6 +641,11 @@
       <room>rooms\rZeroyumeRoom_9</room>
       <room>rooms\rZeroyumeRoom_10</room>
       <room>rooms\rZeroyumeHub</room>
+    </rooms>
+    <rooms name="Rong">
+      <room>rooms\rRongInit</room>
+      <room>rooms\rRong</room>
+      <room>rooms\rRongHub</room>
     </rooms>
   </rooms>
   <help>
