@@ -62,3 +62,5 @@ else if (djump == 1 || place_meeting(x,y+(global.grav),objWater2) || (global.inf
     else
         djump = 1;  //replenish djump if touching water3
 }
+
+if(global.secretItem[10]) djump=0

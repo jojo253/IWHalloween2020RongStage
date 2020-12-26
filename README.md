@@ -16,3 +16,21 @@ r12_ -> exit warp
 r32_ -> need to design
 ```
 
+## 12/26 update
+
+```
+r11  -> done
+r11_ -> done
+r21_ -> done, bug exists(moving plantform)
+r31_ -> done, bug exists(moving plantform)
+r30_ -> done
+r20_ -> done
+r10_ -> done
+r01_ -> done
+r00_ -> done
+r02_ -> donw
+r22_ -> done
+r12_ -> done
+r32_ -> done(maybe)
+```
+

@@ -57,6 +57,7 @@
     </sounds>
     <sound>sound\musTaoshu</sound>
     <sound>sound\musZeroyume</sound>
+    <sound>sound\MGS</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -256,6 +257,9 @@
       <sprite>sprites\sprZeroyumeSpikeLeft</sprite>
       <sprite>sprites\sprZeroyumeSpikeRight</sprite>
       <sprite>sprites\sprZeroyumeSpikeDown</sprite>
+    </sprites>
+    <sprites name="Rong">
+      <sprite>sprites\sprRongBlock</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -569,6 +573,10 @@
       <object>objects\rocover</object>
       <object>objects\secretBlock1</object>
       <object>objects\secretBlock2</object>
+      <object>objects\objRongSign</object>
+      <object>objects\objTriggerBlock</object>
+      <object>objects\secretTrigger</object>
+      <object>objects\endgame</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -148,9 +148,9 @@ alarm[1]=31
           <argument>
             <kind>1</kind>
             <string>if(!bg){
-    //sound_play(MGS)
-    //global.frozen=true
-    global.frozen2=true
+    audio_play_sound(MGS,0,false);
+    //other.frozen=true
+    other.frozen2=true
     alarm[0]=30
     bg=true
 }
